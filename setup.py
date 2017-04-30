@@ -13,5 +13,8 @@ setup(
         "pytest11": [
             "strings = pytest_strings"
         ]
-    }
+    },
+    install_requires=[
+        "pytest>2"
+    ],
 )
